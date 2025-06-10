@@ -1,27 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Music Playlist Explorer</title>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
-    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <!-- Your header content here -->
+      <div class="header-container">
+        <h2 class="label">darielSpots</h2>
+        <ul class="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Featured</a></li>
+        </ul>
+      </div>
     </header>
 
-    <main> 
-        <!-- Your main content here -->
+    <main>
+      <!-- Your main content here -->
+      <div class="playlist-cards" id="cards-container">
+        <!-- DYNAMIC RENDERING IN HERE -->
+      </div>
+
+      <!-- Creating MODAL -->
+      <div class="modal-container" id="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h1 id="song-name"></h1>
+          <img src="" alt="" id="song-img" />
+          <button id="shuffle" class="shuffle">Shuffle</button>
+          <p id="artist-name"></p>
+          <!-- going to need dyanmic rendering of the songs here -->
+
+          <div id="songs-container">
+            <br />
+          </div>
+        </div>
+      </div>
     </main>
 
     <footer>
-        <!-- Your footer content here -->
+      <div class="footer-container"></div>
+      <p>@ 2025 Copyright</p>
+      <!-- Your footer content here -->
     </footer>
-    <script src="data/data.js"></script>
+    <!-- <script src="/data.json"></script> -->
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

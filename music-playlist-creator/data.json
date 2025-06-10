@@ -1,0 +1,314 @@
+[
+  {
+    "playlistID": 101,
+    "playlist_name": "Late Night Cruisin'",
+    "playlist_author": "Shadow Driver",
+    "playlist_art": "https://i1.sndcdn.com/artworks-28a54fbd-14fc-438d-bd25-7bc897e6ccfd-0-t500x500.jpg",
+    "likes": 0,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Skeletons",
+        "artist": "Travis Scott",
+        "duration": "2:25",
+        "album": "ASTROWORLD",
+        "img": "https://wpimg.pixelied.com/blog/wp-content/uploads/2021/05/12051826/Jay-Som-by-Anak-Ko.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Praise The Lord (Da Shine)",
+        "artist": "A$AP Rocky ft. Skepta",
+        "duration": "3:25",
+        "album": "TESTING",
+        "img": "https://i.pinimg.com/736x/4e/b3/6c/4eb36cca36440b4b7b7e745d3a97a7b9.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Location",
+        "artist": "Playboi Carti",
+        "duration": "2:57",
+        "album": "Playboi Carti",
+        "img": "https://cdn-images.dzcdn.net/images/cover/33921c454dc401aafe1e1a8ef3a62da2/200x200.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Goosebumps",
+        "artist": "Travis Scott ft. Kendrick Lamar",
+        "duration": "4:03",
+        "album": "Birds in the Trap Sing McKnight",
+        "img": "https://i.pinimg.com/564x/48/4f/9f/484f9f040e2a3d2cf637af518757a92a.jpg"
+      }
+    ]
+  },
+  {
+    "playlistID": 102,
+    "playlist_name": "Dark Ambient Vibe",
+    "playlist_author": "Mystic Sound",
+    "playlist_art": "https://m.media-amazon.com/images/I/81nFF-rXdRL.jpg",
+    "likes": 420,
+    "songs": [
+      {
+        "id": 1,
+        "title": "RIP",
+        "artist": "Playboi Carti",
+        "duration": "3:12",
+        "album": "Die Lit",
+        "img": "https://cdn-images.dzcdn.net/images/cover/bc19ab17d40c1a7ef6516a7217e54168/1900x1900-000000-80-0-0.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Astrothunder",
+        "artist": "Travis Scott",
+        "duration": "2:22",
+        "album": "ASTROWORLD",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEmwANxarAYguEkRWOtgSq3l-PJWZuva1zvq5D5657-CsjZEtFqXljULj9-Gdj8frLN_g&usqp=CAU"
+      },
+      {
+        "id": 3,
+        "title": "Long Time (Intro)",
+        "artist": "Playboi Carti",
+        "duration": "3:31",
+        "album": "Die Lit",
+        "img": "https://cdn-images.dzcdn.net/images/cover/164a6f4bd42a7ee1ba0fa284a5811f9d/1900x1900-000000-80-0-0.jpg"
+      }
+    ]
+  },
+  {
+    "playlistID": 103,
+    "playlist_name": "Carti's Inferno",
+    "playlist_author": "Opium Official",
+    "playlist_art": "https://img.wattpad.com/b9c8f2994f171d209fef8ef00c30683a7b208d27/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f7a596b414f455a6a566b335167673d3d2d313233313935303039352e313666346631333134303932643433343231363030313638363631392e6a7067?s=fit&w=720&h=720",
+    "likes": 1500,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Magnolia",
+        "artist": "Playboi Carti",
+        "duration": "3:01",
+        "album": "Playboi Carti",
+        "img": ""
+      },
+      {
+        "id": 2,
+        "title": "Sky",
+        "artist": "Playboi Carti",
+        "duration": "3:13",
+        "album": "Whole Lotta Red",
+        "img": ""
+      },
+      {
+        "id": 3,
+        "title": "Die Lit",
+        "artist": "Playboi Carti",
+        "duration": "2:31",
+        "album": "Die Lit",
+        "img": ""
+      },
+      {
+        "id": 4,
+        "title": "Stop Breathing",
+        "artist": "Playboi Carti",
+        "duration": "3:38",
+        "album": "Whole Lotta Red",
+        "img": ""
+      }
+    ]
+  },
+  {
+    "playlistID": 104,
+    "playlist_name": "UTOPIA Aftermath",
+    "playlist_author": "Cactus Jack Crew",
+    "playlist_art": "https://i.pinimg.com/236x/3e/9d/b5/3e9db500da666386a5f39a2d9d55cc18.jpg",
+    "likes": 1120,
+    "songs": [
+      {
+        "id": 1,
+        "title": "HIGHEST IN THE ROOM",
+        "artist": "Travis Scott",
+        "duration": "2:55",
+        "album": "HIGHEST IN THE ROOM",
+        "img": ""
+      },
+      {
+        "id": 2,
+        "title": "SICKO MODE",
+        "artist": "Travis Scott ft. Drake",
+        "duration": "5:10",
+        "album": "ASTROWORLD",
+        "img": ""
+      },
+      {
+        "id": 3,
+        "title": "FE!N",
+        "artist": "Travis Scott ft. Playboi Carti",
+        "duration": "3:11",
+        "album": "UTOPIA",
+        "img": ""
+      },
+      {
+        "id": 4,
+        "title": "STARGAZING",
+        "artist": "Travis Scott",
+        "duration": "4:30",
+        "album": "ASTROWORLD",
+        "img": ""
+      }
+    ]
+  },
+  {
+    "playlistID": 105,
+    "playlist_name": "Distorted Realities",
+    "playlist_author": "Void Beats",
+    "playlist_art": "https://external-preview.redd.it/jGmAYz0t9jJaKc0WMUs25sdmDaZOMR3ipBPXOO8ghBk.jpg?auto=webp&s=4351933d81ddea2dace09bfef8a77b3c8bd3825a",
+    "likes": 780,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Vamp Anthem",
+        "artist": "Playboi Carti",
+        "duration": "2:04",
+        "album": "Whole Lotta Red",
+        "img": ""
+      },
+      {
+        "id": 2,
+        "title": "Dark Knight Dummo",
+        "artist": "Trippie Redd ft. Travis Scott",
+        "duration": "3:46",
+        "album": "Life's A Trip",
+        "img": ""
+      },
+      {
+        "id": 3,
+        "title": "ILoveUIHateU",
+        "artist": "Playboi Carti",
+        "duration": "2:15",
+        "album": "Whole Lotta Red",
+        "img": ""
+      }
+    ]
+  },
+  {
+    "playlistID": 106,
+    "playlist_name": "Crimson Horizon",
+    "playlist_author": "Nocturnal Sounds",
+    "playlist_art": "https://i.pinimg.com/236x/1a/4b/aa/1a4baac8a11bb3a0e9affef725518ba4.jpg",
+    "likes": 910,
+    "songs": [
+      {
+        "id": 1,
+        "title": "Antidote",
+        "artist": "Travis Scott",
+        "duration": "4:22",
+        "album": "Rodeo",
+        "img": ""
+      },
+      {
+        "id": 2,
+        "title": "New Choppa",
+        "artist": "Playboi Carti ft. Lil Uzi Vert",
+        "duration": "2:06",
+        "album": "Playboi Carti",
+        "img": ""
+      },
+      {
+        "id": 3,
+        "title": "CAN'T SAY",
+        "artist": "Travis Scott ft. Don Toliver",
+        "duration": "3:18",
+        "album": "ASTROWORLD",
+        "img": ""
+      },
+      {
+        "id": 4,
+        "title": "Broke Boi",
+        "artist": "Playboi Carti",
+        "duration": "2:52",
+        "album": "Broke Boi Single",
+        "img": ""
+      }
+    ]
+  },
+  {
+    "playlistID": 107,
+    "playlist_name": "Red Eye Flight",
+    "playlist_author": "Pilot Slatt",
+    "playlist_art": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da8448b867281a4176cafb356d6b",
+    "likes": 700,
+    "songs": [
+      {
+        "id": 1,
+        "title": "PULL UP",
+        "artist": "Playboi Carti",
+        "duration": "3:36",
+        "album": "Whole Lotta Red",
+        "img": ""
+      },
+      {
+        "id": 2,
+        "title": "DARK KNIGHT",
+        "artist": "SahBabii",
+        "duration": "2:58",
+        "album": "Barnacles",
+        "img": ""
+      },
+      {
+        "id": 3,
+        "title": "OVER",
+        "artist": "Playboi Carti",
+        "duration": "2:46",
+        "album": "Whole Lotta Red",
+        "img": ""
+      },
+      {
+        "id": 4,
+        "title": "90210",
+        "artist": "Travis Scott ft. Kacy Hill",
+        "duration": "5:39",
+        "album": "Rodeo",
+        "img": ""
+      }
+    ]
+  },
+  {
+    "playlistID": 108,
+    "playlist_name": "Vampire Hours",
+    "playlist_author": "Bloody Beats",
+    "playlist_art": "https://i.pinimg.com/236x/31/70/24/317024eb9c2ad3b28e51f2460d1d80b8.jpg",
+    "likes": 850,
+    "songs": [
+      {
+        "id": 1,
+        "title": "New N3on",
+        "artist": "Playboi Carti",
+        "duration": "1:56",
+        "album": "Whole Lotta Red",
+        "img": ""
+      },
+      {
+        "id": 2,
+        "title": "GATTI",
+        "artist": "JACKBOYS, Pop Smoke, Travis Scott",
+        "duration": "3:01",
+        "album": "JACKBOYS",
+        "img": ""
+      },
+      {
+        "id": 3,
+        "title": "Meh",
+        "artist": "Playboi Carti",
+        "duration": "1:52",
+        "album": "Whole Lotta Red",
+        "img": ""
+      },
+      {
+        "id": 4,
+        "title": "A-Team",
+        "artist": "Migos, Travis Scott",
+        "duration": "3:02",
+        "album": "Culture",
+        "img": ""
+      }
+    ]
+  }
+]

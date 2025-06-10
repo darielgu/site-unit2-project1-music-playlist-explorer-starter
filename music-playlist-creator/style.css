@@ -1,6 +1,177 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f8f8;
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #191825;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main {
+  flex-grow: 1;
+}
+* {
+  color: #e0e1dd;
+}
+.playlist-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #06060676;
+}
+.label {
+  margin-left: 10px;
+}
+.list {
+  list-style: none;
+  display: inline-flex;
+  margin-left: auto;
+}
+li {
+  padding: 10px;
+}
+.card {
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(41, 47, 112, 0.337);
+  width: 300px;
+  height: 375px;
+  margin: 40px;
+  color: #fff;
+  overflow: hidden;
+  box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
+    0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
+    0 8px 8px hsl(0deg 0% 0% / 0.075), 0 16px 16px hsl(0deg 0% 0% / 0.075);
+}
+.card h2 {
+  margin-left: 10px;
+  text-align: left;
+  margin: 0;
+  padding: 2px;
+}
+.card p {
+  margin: 2px;
+}
+.like-container {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+.like-container span {
+  padding: 3px;
+}
+.heart-icon:hover {
+  cursor: pointer;
+}
+
+.song-cover {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.modal-container {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 10%;
+  top: 10%;
+  width: 80%;
+  height: 80%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.752);
+}
+#song-img {
+  width: 200px;
+  height: 200px;
+}
+.modal-content {
+  /* justify-content: center; */
+  /* align-items: center; */
+  display: flex;
+  flex-direction: column;
+  margin: 2% auto; /* 2% from the top and centered */
+  padding: 0px;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+.modal-content p {
+  text-align: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #06060676;
+  color: #fff;
+}
+.songs-container {
+  margin: 10px;
+  height: 200px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #06060676;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+  background-color: #000000dd;
+}
+.wrapper img {
+  height: 150px;
+  width: 150px;
+}
+.shuffle {
+  width: 13%;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-top: 10px;
+  background-color: rgb(117, 117, 248);
+  color: white;
+}
+.shuffle:hover {
+  cursor: pointer;
+}
+.info {
+  margin-left: 30px;
+  text-align: right;
+
+  display: flex;
+  flex-direction: column;
+}
+.info p {
+  text-align: left;
+}
+#artist-name {
+  font-size: 25px;
+}
+.liked {
+  color: red;
 }
