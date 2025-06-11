@@ -72,6 +72,7 @@ img {
   transition: transform 0.1s ease-out;
 }
 .wrapper {
+  min-width: fit-content;
   border-radius: 10px;
   box-shadow: 0 1px 1px hsl(0deg 0% 0% / 0.075),
     0 2px 2px hsl(0deg 0% 0% / 0.075), 0 4px 4px hsl(0deg 0% 0% / 0.075),
@@ -110,4 +111,30 @@ img {
 #playlist-name {
   text-shadow: 1px 1px 2px rgba(239, 119, 252, 0.36), 0 0 1em rgb(199, 199, 199),
     0 0 0.2em rgb(157, 157, 157);
+}
+.dancer {
+  animation-name: circularMotion; /* New animation name */
+  animation-duration: 1s; /* Longer duration for a smoother circle */
+  animation-timing-function: linear; /* Smoother speed curve */
+  animation-iteration-count: 1; /* Loop the animation */
+  transform-origin: center center; /* Ensure rotation is around its own center */
+  display: block;
+  margin: auto;
+}
+@keyframes circularMotion {
+  0% {
+    transform: rotate(0deg) translateX(0px) translateY(0px); /* Start at center */
+  }
+  25% {
+    transform: rotate(90deg) translateX(50px) translateY(0px); /* Move right and rotate */
+  }
+  50% {
+    transform: rotate(180deg) translateX(0px) translateY(50px); /* Move down and rotate */
+  }
+  75% {
+    transform: rotate(270deg) translateX(-50px) translateY(0px); /* Move left and rotate */
+  }
+  100% {
+    transform: rotate(360deg) translateX(0px) translateY(0px); /* Back to center and complete rotation */
+  }
 }

@@ -74,6 +74,7 @@ function loadPlaylists() {
         createPlaylistElement(playlist);
       });
       // here I will add the search function
+      searchFuncionality(data);
     })
     .catch((error) => {
       console.error("this is the error" + error);
@@ -88,7 +89,7 @@ function createPlaylistElement(playlist) {
           <p>${playlist.playlist_author}</p>
           <div class="like-container">
            <span class='heart-icon'>&#x2665; </span> 
-          <span id='like-count' class="like-count">${playlist.likes}</label>
+          <span id='like-count' class="like-count">${playlist.likes}</span>
           </div>`;
   //   element.addEventListener("click", () => {
   //     openModal(playlist);
@@ -96,6 +97,8 @@ function createPlaylistElement(playlist) {
   element.addEventListener("click", (e) => {
     if (!e.target.classList.contains("heart-icon")) {
       openModal(playlist);
+    } else if (e.target.classList.contains("delete")) {
+      // do the deletign stuff here
     } else {
       // The click IS on the heart icon
       const heartIcon = e.target;
@@ -136,7 +139,21 @@ function onShuffleClick(array) {
 // just thinking about the search feature,
 // for my script I will need to rerender the cards when a character is typed and display only titles that begin with the same character
 // on search we will clear the inner html of the divs holding the cards and
-function searchFuncionality() {
-  console.log(dataVAR);
+function searchFuncionality(playlistData) {
+  const searchBar = document.getElementById("searchInput");
+  let filteredData;
+
+  searchBar.addEventListener("input", (event) => {
+    const searchTerm = searchBar.value.toLowerCase();
+
+    filteredData = playlistData.filter((playlist) => {
+      return playlist.playlist_name.toLowerCase().includes(searchTerm);
+    });
+    console.log(filteredData);
+    const cardsContainer = document.getElementById("cards-container");
+    cardsContainer.innerHTML = "";
+    filteredData.forEach((playlist) => {
+      createPlaylistElement(playlist);
+    });
+  });
 }
-searchFuncionality();

@@ -23,7 +23,7 @@ function loadFeatured() {
       // add playlist features
       featuredContainer.innerHTML = `
       <div class='info'>
-      <img src='${playlistShowing.playlist_art}'>
+      <img  class="dancer" src='${playlistShowing.playlist_art}'>
       <p id='playlist-name'>${playlistShowing.playlist_name}</p>
       </div>
      
