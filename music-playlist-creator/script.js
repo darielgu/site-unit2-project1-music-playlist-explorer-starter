@@ -1,5 +1,5 @@
 // STARTING MODAL LOGIC
-
+let dataVAR = [];
 const modal = document.getElementById("modal");
 const span = document.getElementsByClassName("close")[0];
 function openModal(playlist) {
@@ -63,6 +63,7 @@ function loadPlaylists() {
       if (!response.ok) {
         console.log("error connecting to data");
       }
+      // dataVAR = response.json();
       return response.json();
     })
     .then((data) => {
@@ -72,6 +73,7 @@ function loadPlaylists() {
 
         createPlaylistElement(playlist);
       });
+      // here I will add the search function
     })
     .catch((error) => {
       console.error("this is the error" + error);
@@ -131,7 +133,10 @@ function onShuffleClick(array) {
   }
 }
 
-// document.getElementById('shuffle').addEventListener('click',(e)=>{
-//     onShuffleClick(songs)
-
-// })
+// just thinking about the search feature,
+// for my script I will need to rerender the cards when a character is typed and display only titles that begin with the same character
+// on search we will clear the inner html of the divs holding the cards and
+function searchFuncionality() {
+  console.log(dataVAR);
+}
+searchFuncionality();

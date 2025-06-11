@@ -39,6 +39,12 @@ li {
   list-style: none;
   padding: 10px;
 }
+.card:hover {
+  transform: translate(-10px, -10px);
+  transform-style: flat;
+  transition: transform 0.13s ease-in-out;
+}
+
 .card {
   padding-bottom: 10px;
   display: flex;
@@ -70,6 +76,7 @@ li {
 .like-container span {
   padding: 3px;
 }
+
 .heart-icon:hover {
   cursor: pointer;
 }
