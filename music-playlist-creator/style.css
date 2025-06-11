@@ -32,7 +32,11 @@ main {
   display: inline-flex;
   margin-left: auto;
 }
+a {
+  text-decoration: none;
+}
 li {
+  list-style: none;
   padding: 10px;
 }
 .card {
