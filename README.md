@@ -4,7 +4,7 @@ Submitted by: **Dariel Gutierrez**
 
 Estimated time spent: **12** hours spent in total
 
-Deployed Application (**required**): [Music Playlist Explorer Deployed Site](ADD_LINK_HERE)
+Deployed Application (**required**): [Music Playlist Explorer Deployed Site](https://site-unit2-project1-music-playlist-kohl.vercel.app/)
 
 ### Application Features
 
